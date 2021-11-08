@@ -15,39 +15,6 @@ import java.util.Random;
  * It is a LinkedList-based structure that contains public methods to alter the LinkedBag and 
  * its contents, check properties of the LinkedBag, and check how two bags compare to each other. 
  * There are also private helper methods to assist public methods.
- * 
- * DIRECTORY																		LINE #
- * ----------------------------------------------------------------------------------------
- * Internal Node Class:
- *  - Properties																	Line 60
- *  - Constructors																	Line 64
- * Properties: 																		
- * 	- All properties																Line 85
- * Constructors: 																	 
- *  - Workhorse Constructor()														Line 92
- *  - Copy Constructor(LinkedBag<E>)												Line 98
- * Public Methods:
- *  - int size()																	Line 115
- *  - boolean isEmpty()																Line 124
- *  - boolean add(E newEntry)														Line 134
- *  - E remove()																	Line 151
- *  - boolean remove(E anEntry)														Line 181
- *  - void clear()																	Line 201
- *  - int getFrequencyOf(E anEntry)													Line 213
- *  - int getFrequencyOf(Node chk, E anEntry, int num)								Line 224
- *  - boolean contains(E anEntry)													Line 236
- *  - E[] toArray()																	Line 246
- *  - void removeDuplicates()														Line 261
- *  - boolean containsAll(BagInterface aBag)										Line 291
- *  - boolean sameItems(BagInterface aBag)											Line 317
- *  - LinkedBag<E> clone()															Line 336
- *  - Iterator<E> iterator()														Line 345
- * Private Helper Methods:
- *  - int getIndex(E anEntry)														Line 369
- *  - int getIndex(E anEntry, Node tmp, int index)									Line 383
- *  - Node findNode(int index)														Line 397
- * Testing:
- *  - Class Playground																Line 406
  *
  */
 
