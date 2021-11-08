@@ -14,36 +14,6 @@ import java.util.Random;
  * It is an array-based structure that contains public methods to alter the ArrayBag and its 
  * contents, check properties of the ArrayBag, and check how two bags compare to each other. 
  * There are also private helper methods to change array size and assist public methods.
- * 
- * DIRECTORY																		LINE #
- * ----------------------------------------------------------------------------------------
- * Properties: 																		
- * 	- All properties																Line 52
- * Constructors:
- *  - ArrayBag()																	Line 58
- *  - Workhorse Constructor()														Line 63
- *  - Copy Constructor(ArrayBag<E>) 												Line 71
- * Public Methods:
- *  - int size()																	Line 84
- *  - int getArrSize()																Line 92
- *  - boolean isEmpty()																Line 101
- *  - boolean add(E newEntry)														Line 111
- *  - E remove()																	Line 124
- *  - boolean remove(E anEntry)														Line 146
- *  - void clear()																	Line 163
- *  - int getFrequencyOf(E anEntry)													Line 174
- *  - boolean contains(E anEntry)													Line 189
- *  - E[] toArray()																	Line 204
- *  - void removeDuplicates()														Line 233
- *  - boolean containsAll(BagInterface aBag)										Line 259
- *  - boolean sameItems(BagInterface aBag)											Line 281
- *  - ArrayBag<E> clone()															Line 302
- * Private Helper Methods:
- *  - void doubleArray()															Line 310
- *  - void halfArray()																Line 320
- *  - int getIndex(E anEntry)														Line 335
- * Testing:
- *  - Class Playground																Line 344
  *
  */
 
